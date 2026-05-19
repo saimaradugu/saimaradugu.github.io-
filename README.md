@@ -1,1 +1,113 @@
 # saimaradugu.github.io-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Professional Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center bg-white sticky top-0 z-50 shadow-sm">
+        <a href="index.html" class="font-bold text-xl tracking-tight">Your Name</a>
+        <div class="space-x-6 text-sm font-medium">
+            <a href="index.html" class="text-blue-600">Home</a>
+            <a href="projects.html" class="hover:text-blue-600 transition">Projects</a>
+            <a href="experience.html" class="hover:text-blue-600 transition">Experience</a>
+            <a href="resume.pdf" class="bg-gray-900 text-white px-3 py-1.5 rounded-md hover:bg-gray-800 transition" target="_blank">Resume</a>
+        </div>
+    </nav>
+
+    <header class="max-w-6xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+        <div class="md:col-span-2 space-y-6">
+            <p class="text-sm font-semibold tracking-wide text-gray-500 uppercase">Business Analytics · Strategy · Operations</p>
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
+                Turning complex data into practical business decisions.
+            </h1>
+            <p class="text-lg text-gray-600 leading-relaxed">
+                I’m a graduate analyst with experience across revenue strategy, dashboarding, market analytics, and building end-to-end data workflows.
+            </p>
+            <div class="pt-2 space-x-4">
+                <a href="projects.html" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition shadow-sm">View Projects</a>
+                <a href="resume.pdf" class="inline-block border border-gray-300 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition">Download Resume</a>
+            </div>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-100 text-center space-y-4">
+            <img src="profile.jpg" alt="Profile Photo" class="w-32 h-32 rounded-full mx-auto object-cover border-4 border-gray-50">
+            <div>
+                <h2 class="font-bold text-xl">Your Name</h2>
+                <p class="text-sm text-gray-500">Candidate, MS in Quantitative Management</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-2 pt-2">
+                <span class="bg-gray-100 text-gray-700 text-xs px-2.5 py-1 rounded-md font-medium">Python</span>
+                <span class="bg-gray-100 text-gray-700 text-xs px-2.5 py-1 rounded-md font-medium">SQL</span>
+                <span class="bg-gray-100 text-gray-700 text-xs px-2.5 py-1 rounded-md font-medium">Tableau</span>
+                <span class="bg-gray-100 text-gray-700 text-xs px-2.5 py-1 rounded-md font-medium">Power BI</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-white border-y border-gray-200">
+        <div class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <p class="text-3xl font-extrabold text-blue-600">$1.4M</p>
+                <p class="text-xs text-gray-500 mt-1 uppercase font-semibold">Revenue Retained</p>
+            </div>
+            <div>
+                <p class="text-3xl font-extrabold text-blue-600">5+</p>
+                <p class="text-xs text-gray-500 mt-1 uppercase font-semibold">Market Verticals</p>
+            </div>
+            <div>
+                <p class="text-3xl font-extrabold text-blue-600">92%</p>
+                <p class="text-xs text-gray-500 mt-1 uppercase font-semibold">Placement Rate</p>
+            </div>
+            <div>
+                <p class="text-3xl font-extrabold text-blue-600">May 2026</p>
+                <p class="text-xs text-gray-500 mt-1 uppercase font-semibold">Graduation Date</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 py-16 space-y-8">
+        <div class="flex justify-between items-end">
+            <div>
+                <p class="text-sm font-semibold text-gray-500 uppercase tracking-wider">Featured Work</p>
+                <h2 class="text-3xl font-bold tracking-tight mt-1">Selected Projects</h2>
+            </div>
+            <a href="projects.html" class="text-blue-600 font-medium hover:underline text-sm flex items-center gap-1">See all projects &rarr;</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition flex flex-col justify-between">
+                <div class="space-y-3">
+                    <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider bg-blue-50 px-2 py-0.5 rounded">Pricing Strategy</span>
+                    <h3 class="text-xl font-bold tracking-tight">NAPA Capstone</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Led a consulting engagement developing RFM segmentation and customer churn models for leadership pricing decisions.</p>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition flex flex-col justify-between">
+                <div class="space-y-3">
+                    <span class="text-xs font-semibold text-purple-600 uppercase tracking-wider bg-purple-50 px-2 py-0.5 rounded">Agentic AI</span>
+                    <h3 class="text-xl font-bold tracking-tight">Contract Renewal Automation</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Built a multi-agent system MVP to process contracts, extract key renewal terms, and score customer churn risk.</p>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-md transition flex flex-col justify-between">
+                <div class="space-y-3">
+                    <span class="text-xs font-semibold text-green-600 uppercase tracking-wider bg-green-50 px-2 py-0.5 rounded">Operations</span>
+                    <h3 class="text-xl font-bold tracking-tight">Public Safety Demand Analysis</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Analyzed cross-department public data to optimize localized resource allocation and workflow scheduling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-gray-200 bg-white">
+        <div class="max-w-6xl mx-auto px-6 py-8 text-center text-xs text-gray-500">
+            &copy; 2026 Your Name · Analytics · Strategy · Operations
+        </div>
+    </footer>
+
+</body>
+</html>
